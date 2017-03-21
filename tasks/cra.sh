@@ -52,7 +52,7 @@ root_path=$PWD
 # ******************************************************************************
 
 # Install all our packages
-"$root_path"/node_modules/.bin/lerna bootstrap
+"$root_path"/node_modules/.bin/lerna bootstrap --concurrency 1
 
 cd packages/react-scripts
 
