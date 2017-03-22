@@ -13,9 +13,9 @@ environment:
     # - nodejs_version: 4
     #   test_suite: "kitchensink"
 
-cache:
-  - node_modules
-  - packages\react-scripts\node_modules
+# cache:
+#   - node_modules
+#   - packages\react-scripts\node_modules
 
 clone_depth: 50
 
